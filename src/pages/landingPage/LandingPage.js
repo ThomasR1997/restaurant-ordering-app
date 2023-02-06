@@ -151,7 +151,7 @@ export const LandingPage = () => {
           <StyledButton onClick={() => handleBeer()}>+</StyledButton>
         </MenuDiv>
 
-        <OrderDiv id="brightness4, showCart">
+        <OrderDiv id="brightness4">
           {cartItems &&
             cartItems.map((item, index) => {
               return (
